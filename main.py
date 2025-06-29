@@ -5,7 +5,7 @@ from OpenGL.GLU import *
 from OpenGL.GLUT import *
 pygame.init()
 display = (800,600)
-screen = pygame.display.set_mode(display, DOUBLEBUF|OPENGL)
+screen = pygame.display.set_mode(display, pygame.DOUBLEBUF | pygame.OPENGL)
 clock = pygame.time.Clock()
 running = True
 
@@ -20,7 +20,8 @@ while running:
  # code of program for nican of Kian (: 
  #-------------------------------------------------
     print("Kian Is Best!!!!!")
-
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
+    glClearColor(0.0, 0.67, 1.0, 1.0)
     
  #--------------------------------------------------
     pygame.display.flip()
