@@ -20,6 +20,7 @@ while running:
  # code of program for nican of Kian (: 
  #-------------------------------------------------
     print("Kian Is Best!!!!!")
+    print("Kasra is stupid")
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
     glClearColor(0.0, 0.67, 1.0, 1.0)
     
