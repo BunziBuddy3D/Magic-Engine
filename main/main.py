@@ -8,7 +8,6 @@ display = (800,600)
 screen = pygame.display.set_mode(display, pygame.DOUBLEBUF | pygame.OPENGL)
 clock = pygame.time.Clock()
 running = True
-print("Kian Is Best!!!!")
 while running:
     
     for event in pygame.event.get():
