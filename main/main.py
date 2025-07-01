@@ -52,6 +52,7 @@ while running:
  # code of program for nikan of Kian (: 
  #--------------------------------------------------
     glRotatef(1, 3, 1, 1)
+    glClearColor(23/255.0 , 125/255.0 , 144/255.0 , 1.0)
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
     Cube()
     
